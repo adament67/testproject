@@ -597,6 +597,7 @@ e.printStackTrace();
 		// startService(i);
 	}
 
+	
 	@Override
 	protected void onNewIntent(Intent intent) {
 		// TODO Auto-generated method stub
