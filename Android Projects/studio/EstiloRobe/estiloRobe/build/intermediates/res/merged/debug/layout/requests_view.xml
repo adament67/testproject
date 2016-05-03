@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/requestId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Request Id"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+
+        <com.constants.CustomButton
+            android:id="@+id/viewResponseBut"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="View Response"
+            android:textSize="@dimen/textHeading"
+            font:customFontbtn="lvnm.ttf" />
+    </LinearLayout>
+
+</LinearLayout>

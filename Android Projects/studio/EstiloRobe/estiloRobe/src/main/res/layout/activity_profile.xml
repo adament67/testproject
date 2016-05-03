@@ -1,0 +1,1028 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shivank.stylist.ProfileActivity" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/toplinLay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whiteColor"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/profilePicLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:id="@+id/change_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_photo"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/img"
+                        app:civ_border_color="@color/headerRed"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <com.constants.CustomTextView
+                            android:id="@+id/change_photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:text="  Upload pic  "
+                            android:textColor="@color/headerRed"
+                            font:customFonttv="lvnm.ttf" />
+
+                        <com.constants.CustomTextView
+                            android:id="@+id/view_photo1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="  View pic "
+                            android:textColor="@color/headerRed"
+                            font:customFonttv="lvnm.ttf" />
+                    </LinearLayout>
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/change_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="Your full length photo will help us  know you better."
+                        android:textColor="#adadad"
+                        font:customFonttv="lvnm.ttf" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Name *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your name"
+                        android:enabled="false"
+                        android:inputType="textCapWords"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <!-- <View -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="1dp" -->
+                <!-- android:background="@color/graydivider" /> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_margin="10dp" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <com.constants.CustomTextView -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:text="Gender *" -->
+                <!-- android:textColor="@android:color/black" -->
+                <!-- font:customFonttv="lvnm.ttf" /> -->
+
+
+                <!-- <RadioGroup -->
+                <!-- android:id="@+id/gender" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:orientation="horizontal" -->
+                <!-- android:paddingBottom="10dp" -->
+                <!-- android:paddingRight="10dp" -->
+                <!-- android:paddingTop="10dp" > -->
+
+
+                <!-- <com.constants.CustomRadioButton -->
+                <!-- android:id="@+id/male" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:button="@drawable/radiobutton_selecter" -->
+                <!-- android:checked="true" -->
+                <!-- android:paddingLeft="10dp" -->
+                <!-- android:text="Male" -->
+                <!-- android:textColor="@color/redish_text_color" -->
+                <!-- font:customFontrbtn="lvnm.ttf" /> -->
+
+
+                <!-- <com.constants.CustomRadioButton -->
+                <!-- android:id="@+id/female" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:button="@drawable/radiobutton_selecter" -->
+                <!-- android:paddingLeft="10dp" -->
+                <!-- android:text="Female" -->
+                <!-- font:customFontrbtn="lvnm.ttf" /> -->
+                <!-- </RadioGroup> -->
+                <!-- </LinearLayout> -->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Profession/Occupation *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/occupation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your profession/occupation"
+                        android:inputType="textCapSentences"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Birth date *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/birthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Select your birth date"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Body stats *(in inches)"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/bust"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Bust"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:nextFocusLeft="@+id/waist"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/waist"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Waist"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:nextFocusRight="@+id/hips"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/hips"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:nextFocusDown="@+id/height"  
+                        android:hint="Hips"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Height"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/height"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your height in ft"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" >
+                    </com.constants.CustomTextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Weight"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/weight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your weight in kg"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" >
+                    </com.constants.CustomTextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Select your tops wear size *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="7dp"
+                        android:paddingTop="7dp" >
+
+                        <com.constants.CustomTextView
+                            android:id="@+id/size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:padding="5dp"
+                            android:text="M"
+                            font:customFonttv="lvnm.ttf" />
+
+                        <RadioGroup
+                            android:id="@+id/sizeGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/extraSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/xs_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+
+                            <RadioButton
+                                android:id="@+id/small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/s_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+
+                            <RadioButton
+                                android:id="@+id/medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/m_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+
+                            <RadioButton
+                                android:id="@+id/larg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/l_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+
+                            <RadioButton
+                                android:id="@+id/extraLarg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/xl_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+
+                            <RadioButton
+                                android:id="@+id/doubleLarg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/xxl_selector"
+                                android:paddingBottom="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#888888" />
+                        </RadioGroup>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Bottoms wear size"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/bottom_waist_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your bottom waist size in inches"
+                        android:inputType="number"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" >
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Skin Complexion *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/skinComplexion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter skin complexion"
+                        android:inputType="textCapSentences"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/profile_recbd" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical" >
+
+                        <com.constants.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Personality traits/characteristics"
+                            android:textColor="@android:color/black"
+                            font:customFonttv="lvnm.ttf" />
+
+                        <com.constants.CustomEditText
+                            android:id="@+id/characteristics"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/transparent"
+                            android:ems="10"
+                            android:gravity="left|top"
+                            android:hint="Type here"
+                            android:inputType="textMultiLine"
+                            android:minLines="3"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@android:color/black"
+                            font:customFontet="lvnm.ttf" >
+                        </com.constants.CustomEditText>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Colors you love wearing."
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/lovingcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your favourite color"
+                        android:inputType="textCapWords"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 What are your preferred clothing brands? *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/clothbrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter your preferred brand"
+                        android:inputType="textCapWords"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Which style icon do you follow?"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/styleIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Type here."
+                        android:inputType="textCapWords"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/fashion_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="\u2022 What is your take on Fashion? *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radioE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="I am very Experimental and Fashion Forward person"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radioF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="I follow fashion but with my own personal style statement"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radioC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="I am not much of a fashion person and wear what’s comfortable"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Clothes/outfits you are not comfortable wearing?"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/outfits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:ems="10"
+                        android:hint="Enter clothes/outfits"
+                        android:inputType="textCapWords"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/styleDescrip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="\u2022 Which term(s) best describes you?"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Classic"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Casual"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Masculine"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Sexy"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Eclectic"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+
+                        <com.constants.CustomRadioButton
+                            android:id="@+id/radio6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/radiobutton_selecter"
+                            android:padding="7dp"
+                            android:text="Trendy"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#888888"
+                            font:customFontrbtn="lvnm.ttf" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/profile_recbd" >
+
+                    <com.constants.CustomEditText
+                        android:id="@+id/about_yourself"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:gravity="left|top"
+                        android:hint="Is there anything else you’d like to tell us about yourself?"
+                        android:inputType="textMultiLine"
+                        android:minLines="3"
+                        android:padding="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFontet="lvnm.ttf" >
+                    </com.constants.CustomEditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Body shape"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/aboutus"
+                        android:hint="Select your body shape"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" >
+                    </com.constants.CustomTextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical" >
+
+                    <com.constants.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Style *"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/aboutus"
+                        android:hint="Select your style"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/black"
+                        font:customFonttv="lvnm.ttf" >
+                    </com.constants.CustomTextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/graydivider" />
+
+                <com.constants.CustomButton
+                    android:id="@+id/registerButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/headerRed"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="Submit"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="@dimen/textHeading"
+                    android:textStyle="italic"
+                    font:customFontbtn="lvnm.ttf" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

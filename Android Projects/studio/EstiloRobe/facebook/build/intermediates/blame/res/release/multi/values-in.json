@@ -1,0 +1,122 @@
+[
+    {
+        "outputFile": "/home/adament/Android Projects/studio/EstiloRobe/facebook/build/intermediates/res/merged/release/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/adament/Android Projects/studio/EstiloRobe/facebook/src/main/res/values-in/messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\facebook\\build\\intermediates\\res\\merged\\release\\values-in\\values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\facebook\\src\\main\\res\\values-in\\messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/EstiloRobe/facebook/build/intermediates/res/merged/release/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/adament/EstiloRobe/facebook/src/main/res/values-in/messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\facebook\\build\\intermediates\\res\\merged\\release\\values-in\\values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\facebook\\src\\main\\res\\values-in\\messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/facebook/build/intermediates/res/merged/release/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/facebook/src/main/res/values-in/messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    }
+]

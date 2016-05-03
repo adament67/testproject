@@ -1,0 +1,403 @@
+-injars '/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar'
+-outjars '/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /home/adament/mkn/android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration '/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/multi-dex/debug/components.flags'
+
+
+-keep class com.stylist.ParseApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.stylist.SplashFirstActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.AskStylistActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.AskStylistRequestListActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.StylistResponseActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.SyncAlertActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.StylistResponseDetailActivity {
+    <init>();
+}
+
+-keep class com.stylist.Zoom_Crop_DialogActivity {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.facebook.FacebookContentProvider {
+    <init>();
+}
+
+-keep class com.stylist.HomeActivity {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.BrowseFromWarMain {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.MyClosetActivity {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.StyleEditorActivity {
+    <init>();
+}
+
+-keep class com.stylist.lookbook.LookBookActivity {
+    <init>();
+}
+
+-keep class com.stylist.TrendingActivity {
+    <init>();
+}
+
+-keep class com.stylist.planner.PlannerActivity {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.WishListActivity {
+    <init>();
+}
+
+-keep class com.stylist.ProfileActivity {
+    <init>();
+}
+
+-keep class com.stylist.StylistActivity {
+    <init>();
+}
+
+-keep class com.stylist.SettingsActivity {
+    <init>();
+}
+
+-keep class com.stylist.UploadActivity {
+    <init>();
+}
+
+-keep class com.stylist.LoginActivity {
+    <init>();
+}
+
+-keep class com.stylist.SignupActivity {
+    <init>();
+}
+
+-keep class com.stylist.CameraActivity {
+    <init>();
+}
+
+-keep class com.stylist.CroppingActivity {
+    <init>();
+}
+
+-keep class com.stylist.CropActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.NewQueryActivity {
+    <init>();
+}
+
+-keep class com.stylist.askstylist.MyRequestActivity {
+    <init>();
+}
+
+-keep class com.stylist.FbLoginActivity {
+    <init>();
+}
+
+-keep class com.stylist.UserDetailsActivity {
+    <init>();
+}
+
+-keep class com.stylist.ImportFromFacebookActivity {
+    <init>();
+}
+
+-keep class com.stylist.SplashScreenActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.CategoryDetailActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.ItemDetailActivity {
+    <init>();
+}
+
+-keep class com.stylist.Selector {
+    <init>();
+}
+
+-keep class com.stylist.SelectorStyleEditor {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.BrowseFromWardrobe {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.SelectWardrobeCategoryDetail {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.UploadWishListActivity {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.WishListItemActivity {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.BrowseFromWishListActivity {
+    <init>();
+}
+
+-keep class com.stylist.MainActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.UploadWardribeActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.UploadOptionWardrobeActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.EditMyClosetActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.wardrobe.EditCategory {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.UploadOptionWishListActivity {
+    <init>();
+}
+
+-keep class com.stylist.lookbook.LookBookItemActivity {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.WishListItemDetail {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.NewCategoryActivity {
+    <init>();
+}
+
+-keep class com.stylist.CropConfirmActivity {
+    <init>();
+}
+
+-keep class com.stylist.ForgotPasswordActivity {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.SelectWishListItemActivity {
+    <init>();
+}
+
+-keep class com.stylist.UploadLookActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.AllClosetItemActivity {
+    <init>();
+}
+
+-keep class com.stylist.wardrobe.UploadWardrobeWithDescriptionPop {
+    <init>();
+}
+
+-keep class com.stylist.styleeditor.ColourPickerActivity {
+    <init>();
+}
+
+-keep class com.stylist.lookbook.UploadLookBook {
+    <init>();
+}
+
+-keep class com.stylist.wishlist.UploadWishListDescriptionActivity {
+    <init>();
+}
+
+-keep class com.stylist.planner.AddLook {
+    <init>();
+}
+
+-keep class com.stylist.lookbook.UploadFromLookbook {
+    <init>();
+}
+
+-keep class com.stylist.planner.PlannerDetailList {
+    <init>();
+}
+
+-keep class com.stylist.planner.PlannerDetailItem {
+    <init>();
+}
+
+-keep class com.stylist.NotificationHandelar {
+    <init>();
+}
+
+-keep class com.stylist.SyncDataActivity {
+    <init>();
+}
+
+-keep class com.stylist.ReferAppActivity {
+    <init>();
+}
+
+-keep class com.stylist.BuyTokenActivity {
+    <init>();
+}
+
+-keep class com.stylist.Transaction {
+    <init>();
+}
+
+-keep class com.stylist.ShareActivity {
+    <init>();
+}
+
+-keep class com.stylist.AboutUs {
+    <init>();
+}
+
+-keep class com.stylist.TrendingDetailActivity {
+    <init>();
+}
+
+-keep class com.stylist.PayUMoneyActivity {
+    <init>();
+}
+
+-keep class com.stylist.PaymentSuccessActivity {
+    <init>();
+}
+
+-keep class com.stylist.lookbook.LooksByStylistActivity {
+    <init>();
+}
+
+-keep class com.stylist.LooksbyStylistDetailActivity {
+    <init>();
+}
+
+-keep class com.stylist.ServiceDialogActivity {
+    <init>();
+}
+
+-keep class com.stylist.rssfeed.WeatherActivity {
+    <init>();
+}
+
+-keep class com.stylist.rssfeed.AndroidRSSReaderApplicationActivity {
+    <init>();
+}
+
+-keep class com.stylist.rssfeed.AddNewSiteActivity {
+    <init>();
+}
+
+-keep class com.stylist.rssfeed.ListRSSItemsActivity {
+    <init>();
+}
+
+-keep class com.stylist.rssfeed.DisPlayWebPageActivity {
+    <init>();
+}
+
+-keep class com.stylist.MyBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.stylist.BackServiceForCloset {
+    <init>();
+}
+
+-keep class com.stylist.GcmBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.stylist.GCMNotificationIntentService {
+    <init>();
+}
+
+-keep class com.stylist.SplashMostFirst {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

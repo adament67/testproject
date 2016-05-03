@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.constants.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/headerRed"
+        font:customFonttv="lvnm.ttf" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal" >
+
+<ImageView
+    android:id="@+id/selected"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/correct11"
+    android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img3" />
+    </RelativeLayout>
+
+    <com.constants.CustomTextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        font:customFonttv="lvnm.ttf" />
+
+</LinearLayout>

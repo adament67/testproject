@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/adament/Music/EstiloRobe/bWlib_circle_indicator/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/home/adament/Music/EstiloRobe/bWlib_circle_indicator/src/main/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/bWlib_circle_indicator/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/home/adament/Music/EstiloRobe/bWlib_circle_indicator/src/main/res/color/vpi__dark_theme.xml"
+    }
+]

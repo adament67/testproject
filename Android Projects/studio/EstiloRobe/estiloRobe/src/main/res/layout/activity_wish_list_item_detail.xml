@@ -1,0 +1,300 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stylist.WishListItemDetail"
+    tools:ignore="MergeRootFrame" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/itemImageRelLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" >
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/favouriteImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/uploadPadding"
+                android:scaleType="centerInside"
+                android:src="@drawable/unselect_icon" />
+
+            <ImageView
+                android:id="@+id/deleteImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/favouriteImage"
+                android:layout_marginBottom="@dimen/uploadPadding"
+                android:layout_marginLeft="@dimen/uploadPadding"
+                android:layout_marginRight="@dimen/uploadPadding"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete_icon" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/uploadPadding"
+            android:paddingRight="@dimen/uploadPadding" >
+
+            <com.constants.CustomTextView
+                android:id="@+id/userPhotos"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="0.15"
+                android:background="@color/headerRed"
+                android:gravity="center_vertical"
+                android:padding="@dimen/uploadPadding"
+                android:text="Description"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/textNormal"
+                font:customFonttv="lvnm.ttf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/round_corner"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:lines="1"
+                        android:padding="@dimen/uploadPadding"
+                        android:text="Category Name"
+                        android:textColor="@color/gray"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <TextView
+                        android:id="@+id/name_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.6"
+
+                        android:background="@color/transparent"
+                        android:gravity="right"
+                        android:padding="@dimen/uploadPadding"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/brand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:lines="1"
+                        android:padding="@dimen/uploadPadding"
+                        android:text="Brand"
+                        android:textColor="@color/gray"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.5" >
+
+                        <com.constants.CustomEditText
+                            android:id="@+id/brand_txtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.5"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:cursorVisible="false"
+                            android:imeOptions="actionDone"
+                            android:padding="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            android:visibility="visible"
+                            font:customFontet="lvnm.ttf" />
+
+                        <!-- <com.constants.CustomTextView
+                            android:id="@+id/brand_txtnView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.5"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:imeOptions="actionDone"
+                            android:padding="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            font:customFonttv="lvnm.ttf" /> -->
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/cost"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:lines="1"
+                        android:paddingBottom="@dimen/uploadPadding"
+                        android:paddingLeft="@dimen/uploadPadding"
+                        android:paddingRight="@dimen/uploadPadding"
+                        android:text="Cost"
+                        android:textColor="@color/gray"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.5" >
+
+                        <com.constants.CustomEditText
+                            android:id="@+id/cost_txtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="0.6"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:paddingBottom="@dimen/uploadPadding"
+                            android:paddingLeft="@dimen/uploadPadding"
+                            android:paddingRight="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            android:visibility="visible"
+                            font:customFontet="lvnm.ttf" />
+
+                     <!--    <com.constants.CustomTextView
+                            android:id="@+id/cost_txtnView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="0.6"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:paddingBottom="@dimen/uploadPadding"
+                            android:paddingLeft="@dimen/uploadPadding"
+                            android:paddingRight="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            font:customFonttv="lvnm.ttf" /> -->
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/comments"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:lines="1"
+                        android:paddingBottom="@dimen/uploadPadding"
+                        android:paddingLeft="@dimen/uploadPadding"
+                        android:paddingRight="@dimen/uploadPadding"
+                        android:text="Comments"
+                        android:textColor="@color/gray"
+                        font:customFonttv="lvnm.ttf" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.5" >
+
+                        <com.constants.CustomEditText
+                            android:id="@+id/comments_txtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="0.6"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:imeOptions="actionDone"
+                            android:paddingBottom="@dimen/uploadPadding"
+                            android:paddingLeft="@dimen/uploadPadding"
+                            android:paddingRight="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            android:visibility="visible"
+                            font:customFontet="lvnm.ttf" />
+
+                      <!--   <com.constants.CustomTextView
+                            android:id="@+id/comments_txtnView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight="0.6"
+                            android:background="@color/transparent"
+                            android:gravity="right"
+                            android:imeOptions="actionDone"
+                            android:paddingBottom="@dimen/uploadPadding"
+                            android:paddingLeft="@dimen/uploadPadding"
+                            android:paddingRight="@dimen/uploadPadding"
+                            android:singleLine="true"
+                            font:customFonttv="lvnm.ttf" /> -->
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.05" />
+        </LinearLayout>
+
+        <include layout="@layout/bottom_bar" />
+    </LinearLayout>
+
+</LinearLayout>

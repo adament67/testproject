@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="@dimen/ten_dp"
+        android:background="@drawable/border_trans_closet_cat"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/whiteColor"
+            android:background="@color/headerRed"
+            android:padding="10dp"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:paddingLeft="5dp"
+                android:text="Name"/>
+            <EditText
+                android:id="@+id/lookbookNameText"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Lookbook Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/headenewRed"
+                android:textCursorDrawable="@null"
+                 />
+          </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:paddingLeft="5dp"
+
+                android:text="Ocassion"/>
+            <EditText
+                android:id="@+id/ocassionText"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Ocassion"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/headenewRed"
+                android:textCursorDrawable="@null"
+                />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:paddingLeft="5dp"
+
+                android:text="Comments"/>
+            <EditText
+                android:id="@+id/commentsText"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Comments"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/headenewRed"
+                android:textCursorDrawable="@null"
+                />
+        </LinearLayout>
+
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/ocassionText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/transparent"-->
+                <!--android:hint="Occasion"-->
+                <!--android:lines="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:textColor="@color/headenewRed"-->
+                <!--android:textCursorDrawable="@null"-->
+                 <!--/>-->
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/commentsText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/transparent"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:hint="Comments"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:textColor="@color/headenewRed"-->
+                <!--android:textCursorDrawable="@null"-->
+                 <!--/>-->
+
+
+
+        <LinearLayout
+            android:id="@+id/bottomButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <com.constants.CustomTextView
+                android:id="@+id/saveButn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/redish_text_color"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginRight="2dp"
+                android:text="Ok"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/cancelButnc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/redish_text_color"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Cancel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="headerRed">#ed394c</color>
+    <color name="selectedheaderRed">#950b0b</color>
+    <color name="splashColorRedish">#B03E3E</color>
+    <color name="splashColorWhite">#DADAD9</color>
+    <color name="logIncolor">#D34848</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="blackColor">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="headenewRed">#000000</color>
+    <!-- <color name="headerLightRed">#e57877</color> -->
+    <color name="headerRedHover">#c81413</color>
+    <color name="pinkfooter">#ed394c</color>
+    <color name="pink">#ff2c5e</color>
+    <color name="lightgray">#e3e3e3</color>
+    <color name="gray">#c2c2c2</color>
+    <color name="light_crimish">#f1f1f1</color>
+    <color name="style_editor_colour">#fbdebb</color>
+    <color name="graydivider">#e6e6e6</color>
+    <color name="orange_light_colour">#f4f4f4</color>
+    <color name="redish_text_color"> #ed394c</color>
+    <color name="light_blackColor">#696969</color>
+    <color name="grayTextColor">#888888</color>
+    <color name="textTermColor">#999999</color>
+    <color name="textVersionColor">#242424</color>
+    <color name="green">#0ca405</color>
+    <color name="app_color">#CE0101</color>
+</resources>

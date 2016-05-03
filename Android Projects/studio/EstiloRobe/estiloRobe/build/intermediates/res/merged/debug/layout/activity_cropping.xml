@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CroppingActivity" >
+
+    
+
+    <ImageView
+        android:id="@+id/cropView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        />
+  <LinearLayout
+    android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="0.2"
+    android:background="@color/splashColorRedish"
+    android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+    <com.constants.CustomButton
+        android:id="@+id/createButn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" font:customFontbtn="lvnm.ttf"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/uploadPadding"
+        android:layout_weight="1"
+        android:background="@color/whiteColor"
+        android:text="Create"
+        android:textColor="@color/splashColorRedish"
+        android:textSize="@dimen/textNormal" />
+
+    <com.constants.CustomButton
+        android:id="@+id/cancelButn"
+        android:layout_width="0dp"
+     
+        style="?android:attr/buttonStyleSmall"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/textNormal"  font:customFontbtn="lvnm.ttf"
+             android:textColor="@color/splashColorRedish"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Cancel"  />
+
+   </LinearLayout>
+</LinearLayout>

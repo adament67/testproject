@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.constants.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Select Date of Birth"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="@color/headerRed"
+            font:customFonttv="lvnm.ttf" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false" >
+        </DatePicker>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.constants.CustomTextView
+                android:id="@+id/sel_datetime"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/headerRed"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="OK"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/close"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@color/headerRed"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cancel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

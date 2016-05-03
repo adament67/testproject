@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stylist.UploadOptionWishListActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/uploadRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!-- <LinearLayout
+            android:id="@+id/uploadLinearLayoutt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/uploadLinearLay"
+            android:orientation="vertical" >
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/upperlinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/uploadLinearLay"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uploadLinearLay"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="@dimen/fifteen_dp"
+            android:layout_marginRight="@dimen/fifteen_dp"
+            android:background="@drawable/white_ract"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"  >
+
+            <TextView
+                android:id="@+id/uploadCameraRoll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="@dimen/uploadPadding"
+                android:text="Upload From Gallery"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/text_selector" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+         
+            <TextView
+                android:id="@+id/uploadcapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="@dimen/uploadPadding"
+                android:text="Take A Photo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/text_selector" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="@dimen/uploadPadding"
+                android:text="Back"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@drawable/text_selector" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

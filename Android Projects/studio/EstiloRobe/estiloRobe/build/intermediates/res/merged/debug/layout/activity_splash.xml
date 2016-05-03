@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/backRelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_back_clothes"
+    android:orientation="vertical" >
+    
+    
+    <!-- Buttons -->
+     <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:layout_alignParentBottom="true" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.03" >
+                </View>
+
+                <com.constants.CustomButton
+                    android:id="@+id/signInButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.455"
+                    android:background="@drawable/white_bg"
+                    android:text="SIGN IN"
+                    android:textSize="@dimen/textHeading"
+                    font:customFontbtn="lvnmbd.ttf" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.03" >
+                </View>
+
+                <com.constants.CustomButton
+                    android:id="@+id/registerButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.455"
+                    android:background="@drawable/pink_bg"
+                    android:text="REGISTER"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="@dimen/textHeading"
+                    font:customFontbtn="lvnmbd.ttf" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.03" >
+                </View>
+            </LinearLayout>
+            
+     
+     <!-- Logo -->
+     
+     <LinearLayout
+          android:id="@+id/linearSplashCircleLogo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_gravity="center_horizontal"
+        >
+         
+         <ImageView
+             
+             android:layout_width="250dp"
+         android:layout_height="250dp"
+         android:layout_gravity="center_horizontal"
+         android:adjustViewBounds="true"
+         android:scaleType="centerInside"
+         android:layout_marginTop="20dp"
+         android:src="@drawable/circle_logo_splash" />
+         
+         
+         
+         
+     </LinearLayout>
+    
+</FrameLayout>

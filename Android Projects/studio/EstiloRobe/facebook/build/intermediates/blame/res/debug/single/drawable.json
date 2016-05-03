@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/home/adament/Music/EstiloRobe/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/adament/Music/EstiloRobe/facebook/src/main/res/drawable/messenger_button_blue_bg_selector.xml"
+    }
+]

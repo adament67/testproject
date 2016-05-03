@@ -1,0 +1,154 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stylist.LooksbyStylistDetailActivity" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" >
+
+            <LinearLayout
+                android:id="@+id/shareImageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/delImagen" >
+
+                <ImageView
+                    android:id="@+id/itemImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+<!-- 
+            <ImageView
+                android:id="@+id/delImagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:src="@drawable/delete_icon" />
+
+            <ImageView
+                android:id="@+id/favouriteImagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/delImagen"
+                android:padding="5dp"
+                android:src="@drawable/unselect_icon" />
+ -->
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/dashed_line" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_gray_trans"
+                android:orientation="vertical" >
+<!-- 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/lookbookNameText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/whiteColor"
+                        android:gravity="center_vertical"
+                        android:hint="occasion"
+                        android:lines="1"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/headenewRed"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/textSmall"
+                        font:customFonttv="lvnm.ttf" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/firstView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:background="@color/graydivider" />
+ -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/ocassionText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/whiteColor"
+                        android:gravity="center_vertical"
+                        android:hint="occasion"
+                        android:lines="1"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/headenewRed"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/textSmall"
+                        font:customFonttv="lvnm.ttf" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/secondView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:background="@color/graydivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <com.constants.CustomTextView
+                        android:id="@+id/commentsText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/whiteColor"
+                        android:gravity="center_vertical"
+                        android:hint="stylist comments"
+                        android:padding="10dp"
+                        android:textColor="@color/headenewRed"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/textSmall"
+                        font:customFonttv="lvnm.ttf" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

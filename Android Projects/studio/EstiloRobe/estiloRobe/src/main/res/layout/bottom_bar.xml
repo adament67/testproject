@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="45dp" >
+
+    <LinearLayout
+        android:id="@+id/single_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/bottomText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/headerRed"
+            android:gravity="center"
+            android:text="View All"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textNormal"
+            font:customFonttv="lvnm.ttf" >
+
+        </com.constants.CustomTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doubleButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/browseButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/headerRed"
+            android:gravity="center"
+            android:text="Browse"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textNormal"
+            font:customFonttv="lvnm.ttf" />
+
+        <com.constants.CustomTextView
+            android:id="@+id/skinColorButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/headerRed"
+            android:gravity="center"
+            android:text="Theme Color"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textNormal"
+            font:customFonttv="lvnm.ttf" />
+    </LinearLayout>
+
+</RelativeLayout>

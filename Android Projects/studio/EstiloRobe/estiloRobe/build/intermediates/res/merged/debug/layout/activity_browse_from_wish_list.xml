@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowseFromWishListActivity" >
+
+    <include layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/myWishListItemListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:clickable="true"
+        android:focusable="true" >
+    </ListView>
+
+    <com.constants.CustomTextView
+        android:id="@+id/nodatatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No data found."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone"
+        font:customFonttv="lvnm.ttf" />
+
+</RelativeLayout>

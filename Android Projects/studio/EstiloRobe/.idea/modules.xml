@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EstiloRobe.iml" filepath="$PROJECT_DIR$/EstiloRobe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_1800flowers_lib_menudrawer/_1800flowers_lib_menudrawer.iml" filepath="$PROJECT_DIR$/_1800flowers_lib_menudrawer/_1800flowers_lib_menudrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-httpcomponents-httpcore/apache-httpcomponents-httpcore.iml" filepath="$PROJECT_DIR$/apache-httpcomponents-httpcore/apache-httpcomponents-httpcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bWlib_circle_indicator/bWlib_circle_indicator.iml" filepath="$PROJECT_DIR$/bWlib_circle_indicator/bWlib_circle_indicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estiloRobe/estiloRobe.iml" filepath="$PROJECT_DIR$/estiloRobe/estiloRobe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient-4.3.4/httpclient-4.3.4.iml" filepath="$PROJECT_DIR$/httpclient-4.3.4/httpclient-4.3.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.2.6/httpmime-4.2.6.iml" filepath="$PROJECT_DIR$/httpmime-4.2.6/httpmime-4.2.6.iml" />
+    </modules>
+  </component>
+</project>

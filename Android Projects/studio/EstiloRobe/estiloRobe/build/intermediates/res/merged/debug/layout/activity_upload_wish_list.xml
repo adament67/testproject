@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/cropLayout_nn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/our_imageview"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="#FFF"
+            android:scaleType="centerInside" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ed394c">
+
+        <FrameLayout
+            android:id="@+id/backButtonImage"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dip"
+
+                android:src="@drawable/back28" />
+
+        </FrameLayout>
+
+
+        <com.constants.CustomTextView
+            android:id="@+id/headerName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@+id/nextOrDelButton"
+            android:layout_toRightOf="@+id/backButtonLayout"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:text="UPLOAD WISHLIST"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+
+
+        <RelativeLayout
+            android:id="@+id/saveRelLayout"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:visibility="visible" >
+        <com.constants.CustomTextView
+            android:id="@+id/saveText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/uploadPadding"
+            android:background="@color/transparent"
+            android:gravity="center"
+
+            android:layout_gravity="end"
+            android:padding="@dimen/uploadPadding"
+            android:text="Save"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+</RelativeLayout>
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

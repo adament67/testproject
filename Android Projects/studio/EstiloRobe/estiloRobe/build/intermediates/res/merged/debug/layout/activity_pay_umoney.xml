@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mainactivity.PayUMoneyActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_bottomTextLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/five_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Card Number"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+
+        <com.constants.CustomEditText
+            android:id="@+id/card_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_gray_trans"
+            android:gravity="center_vertical"
+            android:hint="Enter Card number"
+            android:padding="7dp"
+            android:maxLength="16"
+            
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            
+            font:customFontet="lvnm.ttf" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/leftLayout"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical" >
+
+                <com.constants.CustomTextView
+                    android:id="@+id/five_token"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="@dimen/uploadPadding"
+                    android:text="Expiry Date"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+                <com.constants.CustomEditText
+                    android:id="@+id/expiry_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:background="@drawable/border_gray_trans"
+                    android:gravity="center_vertical"
+                    android:hint="MM/YYYY"
+                      android:inputType="number"
+                    android:padding="7dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    font:customFontet="lvnm.ttf" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/leftLayout"
+                android:orientation="vertical" >
+
+                <com.constants.CustomTextView
+                    android:id="@+id/five_token"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:text="CVV"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                     />
+
+                <com.constants.CustomEditText
+                    android:id="@+id/cvv"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="@dimen/uploadPadding"
+                    android:background="@drawable/border_gray_trans"
+                    android:gravity="center_vertical"
+                    android:hint="cvv"
+                    android:inputType="numberPassword"
+                    android:padding="7dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    font:customFontet="lvnm.ttf" />
+
+            </LinearLayout>
+            
+        </RelativeLayout>
+
+        <com.constants.CustomTextView
+            android:id="@+id/payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/headerRed"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Payment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whiteColor" />
+
+    </LinearLayout>
+
+</LinearLayout>

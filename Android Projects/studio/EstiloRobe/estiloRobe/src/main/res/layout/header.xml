@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTopActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headerRed"
+        android:clickable="false"
+        android:focusable="false" >
+
+        <LinearLayout
+            android:id="@+id/backButtonLayout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/backButtonImage"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="10dip"
+                android:src="@drawable/back28" />
+        </LinearLayout>
+
+        <com.constants.CustomTextView
+            android:id="@+id/headerName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@+id/nextOrDelButton"
+            android:layout_toRightOf="@+id/backButtonLayout"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"
+            android:text="HOME"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+
+        <LinearLayout
+            android:id="@+id/nextOrDelButton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/nextOrDel"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@color/headerRed"
+                android:focusable="false"
+                android:padding="10dip"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/syncingInProgressLayout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/syncProgressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/saveRelLayout"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/saveText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/uploadPadding"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/uploadPadding"
+            android:text="Save"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+    </RelativeLayout>
+
+</RelativeLayout>

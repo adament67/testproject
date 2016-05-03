@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\raw\\carhorn.mp3",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\raw\\carhorn.mp3"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/carhorn.mp3",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/raw/carhorn.mp3"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\raw\\carhorn.mp3",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\raw\\carhorn.mp3"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/carhorn.mp3",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/raw/carhorn.mp3"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/carhorn.mp3",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/raw/carhorn.mp3"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/res/raw/gtm_analytics"
+    }
+]

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/header" /> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/headerRed"
+        android:padding="10dp" >
+
+        <com.constants.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_photo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/img"
+            app:civ_border_color="@color/headerRed"
+            app:civ_border_width="2dp" />
+
+        <com.constants.CustomTextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_photo"
+            android:layout_centerHorizontal="true"
+            android:text="Jessica"
+            android:textColor="@android:color/white"
+            font:customFonttv="lvnm.ttf" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/Privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/notification"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Notifications"
+            font:customFonttv="lvnm.ttf" />
+
+        <com.constants.CustomTextView
+            android:id="@+id/count_notif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/Privacy"
+            android:padding="5dip"
+            android:text="" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <com.constants.CustomTextView
+        android:id="@+id/trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/transactionnew"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Transactions"
+        font:customFonttv="lvnm.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/buy_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/check1"
+            android:drawableLeft="@drawable/buy_token"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Buy Token"
+            font:customFonttv="lvnm.ttf" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <com.constants.CustomTextView
+        android:id="@+id/referralTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/refer_money"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Reffer &amp; Earn"
+        font:customFonttv="lvnm.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <com.constants.CustomTextView
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/rateapp"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Rate This App"
+        font:customFonttv="lvnm.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <com.constants.CustomTextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/aboutus"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="About Us"
+        font:customFonttv="lvnm.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <!--  -->
+
+    <RelativeLayout
+        android:id="@+id/sync_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/sync_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sync_new"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Sync"
+            font:customFonttv="lvnm.ttf" />
+
+        <ImageView
+            android:id="@+id/sync_image"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/sync_text"
+            android:src="@drawable/red_circle" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:text="0%"/>
+
+        <ProgressBar
+            android:id="@+id/syncProgressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+    <com.constants.CustomTextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/logout"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Logout"
+        font:customFonttv="lvnm.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/graydivider" />
+
+</LinearLayout>

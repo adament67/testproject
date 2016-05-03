@@ -1,0 +1,291 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/ParentLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/uploadPadding" >
+
+            <LinearLayout
+                   android:id="@+id/myClosetLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/my_closet_dress"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/my_closet" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+		                     font:customFonttv="lvnm.ttf"
+                    android:text="My Closet"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/styleEditorLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/style_editor"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_styleeditor" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                  
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center_horizontal"
+		                     font:customFonttv="lvnm.ttf"
+                    android:gravity="center"
+                    android:text="Style Editor"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:orientation="horizontal"
+             >
+
+            <LinearLayout
+                android:id="@+id/lookbookLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/lookbook"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_lookbook" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+		                     font:customFonttv="lvnm.ttf"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="Look Book"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/trendingLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/trending"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_trending" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.3"
+		                     font:customFonttv="lvnm.ttf"
+                    android:gravity="center"
+                    android:text="Trending"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:orientation="horizontal"
+             >
+
+            <LinearLayout
+                android:id="@+id/myprofileLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/my_profile"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_myprofile" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+		                     font:customFonttv="lvnm.ttf"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="My Profile"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wishlistLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/wishlist"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_wishlist" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+		                     font:customFonttv="lvnm.ttf"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="Wishlist"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:paddingBottom="@dimen/uploadPadding" 
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/stylistLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/ask_stylist"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_stylist" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+		                     font:customFonttv="lvnm.ttf"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="Ask Stylist"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/plannLinearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/uploadPadding"
+                android:layout_weight="1"
+                android:background="@drawable/planner"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="0.7"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/calendar3" />
+
+                <com.constants.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.3"
+		                     font:customFonttv="lvnm.ttf"
+                    android:gravity="center"
+                    android:text="Planner"
+                    android:textColor="@color/whiteColor" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

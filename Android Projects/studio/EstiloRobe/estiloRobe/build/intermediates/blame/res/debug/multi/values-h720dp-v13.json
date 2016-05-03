@@ -1,0 +1,122 @@
+[
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    }
+]

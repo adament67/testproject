@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/newCategoryRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_white_dotted_line"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true" >
+
+            <RelativeLayout
+                android:id="@+id/newCategoryTopLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:padding="@dimen/uploadPadding" >
+
+                <com.constants.CustomTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Category Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="@dimen/textNormal"
+                    font:customFonttv="lvnm.ttf" />
+
+                <com.constants.CustomEditText
+                    android:id="@+id/category_editTextn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:background="@drawable/border_red_small_but"
+                    android:ems="10"
+                    android:inputType="textCapWords"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/whiteColor"
+                    android:textCursorDrawable="@null"
+                    font:customFontet="lvnm.ttf" >
+                </com.constants.CustomEditText>
+            </RelativeLayout>
+
+            <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/createButn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Create"
+            android:textColor="@color/headerRed" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Close"
+            android:textColor="@color/headerRed" />
+
+    </LinearLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp" >
+
+                <com.constants.CustomTextView
+                    android:id="@+id/createButn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Create"
+                    android:textColor="@color/headerRed"
+                    android:textStyle="italic"
+                    font:customFonttv="lvnm.ttf" />
+
+                <com.constants.CustomTextView
+                    android:id="@+id/cancelButn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Close"
+                    android:textColor="@color/headerRed"
+                    android:textStyle="italic"
+                    font:customFonttv="lvnm.ttf" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

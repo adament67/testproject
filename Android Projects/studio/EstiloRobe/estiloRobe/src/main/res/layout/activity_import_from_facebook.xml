@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.constants.CustomTextView
+        android:id="@+id/userPhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:text="Select Photo of User from FaceBook"
+        android:textColor="@color/splashColorRedish"
+        android:textSize="@dimen/textHeading"
+        font:customFonttv="lvnm.ttf" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal" >
+
+        <TableRow>
+
+            <com.constants.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textStyle="bold"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/userName_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                font:customFonttv="lvnm.ttf" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/activity_vertical_margin" >
+
+            <com.constants.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/userEmail_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                font:customFonttv="lvnm.ttf" />
+        </TableRow>
+    </TableLayout>
+
+    <GridView
+        android:id="@+id/userPhotosGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

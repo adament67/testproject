@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stylist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- <uses-permission android:name="com.stylist.permission.C2D_MESSAGE" /> -->
+
+
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+    <!-- <data android:scheme="file" /> -->
+
+
+    <!-- </intent-filter> -->
+
+    <permission
+        android:name="com.stylist.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.stylist.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.stylist.ParseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+        <!-- <data android:scheme="file" /> -->
+
+
+        <!-- </intent-filter> -->
+
+        <activity
+            android:name="com.stylist.SplashFirstActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.AskStylistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.AskStylistRequestListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.StylistResponseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.SyncAlertActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.stylist.askstylist.StylistResponseDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.Zoom_Crop_DialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1675999079304774"
+            android:exported="true" />
+
+        <activity
+            android:name="com.stylist.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.BrowseFromWarMain"
+            android:label="@string/title_activity_my_closet"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.MyClosetActivity"
+            android:label="@string/title_activity_my_closet"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.StyleEditorActivity"
+            android:label="@string/title_activity_style_editor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.lookbook.LookBookActivity"
+            android:label="@string/title_activity_look_book"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stylist.TrendingActivity"
+            android:label="@string/title_activity_trending"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.planner.PlannerActivity"
+            android:label="@string/title_activity_planner"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.WishListActivity"
+            android:label="@string/title_activity_wish_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.StylistActivity"
+            android:label="@string/title_activity_stylist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.UploadActivity"
+            android:label="@string/title_activity_upload"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stylist.SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.CroppingActivity"
+            android:label="@string/title_activity_cropping"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.CropActivity"
+            android:label="@string/title_activity_crop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.NewQueryActivity"
+            android:label="@string/title_activity_new_query"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.askstylist.MyRequestActivity"
+            android:label="@string/title_activity_my_request"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.FbLoginActivity"
+            android:label="@string/title_activity_fb_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.UserDetailsActivity"
+            android:label="@string/title_activity_user_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.ImportFromFacebookActivity"
+            android:label="@string/title_activity_import_from_facebook"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.CategoryDetailActivity"
+            android:label="@string/title_activity_category_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.ItemDetailActivity"
+            android:label="@string/title_activity_item_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.Selector"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.SelectorStyleEditor"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.BrowseFromWardrobe"
+            android:label="@string/title_activity_item_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.SelectWardrobeCategoryDetail"
+            android:label="@string/title_activity_item_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.UploadWishListActivity"
+            android:label="@string/title_activity_wish_list_item_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.WishListItemActivity"
+            android:label="@string/title_activity_wish_list_item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.BrowseFromWishListActivity"
+            android:label="@string/title_activity_browse_from_wish_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.UploadWardribeActivity"
+            android:label="@string/title_activity_upload_wardribe"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+            <!-- <data android:scheme="file" /> -->
+
+
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.UploadOptionWardrobeActivity"
+            android:label="@string/title_activity_upload_option_wardrobe"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+            <!-- <data android:scheme="file" /> -->
+
+
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.EditMyClosetActivity"
+            android:label="@string/title_activity_edit_my_closet"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.wardrobe.EditCategory"
+            android:label="@string/title_activity_edit_category"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.UploadOptionWishListActivity"
+            android:label="@string/title_activity_upload_option_wish_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+            <!-- <data android:scheme="file" /> -->
+
+
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.stylist.lookbook.LookBookItemActivity"
+            android:label="@string/title_activity_look_book_item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.WishListItemDetail"
+            android:label="@string/title_activity_wish_list_item_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.NewCategoryActivity"
+            android:label="@string/title_activity_new_category"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.CropConfirmActivity"
+            android:label="@string/title_activity_crop_confirm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.SelectWishListItemActivity"
+            android:label="@string/title_activity_select_wish_list_item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.UploadLookActivity"
+            android:label="@string/title_activity_upload_look"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wardrobe.AllClosetItemActivity"
+            android:label="@string/title_activity_all_closet_item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+
+        <!-- android:theme="@style/Theme.Transparent" -->
+        <activity
+            android:name="com.stylist.wardrobe.UploadWardrobeWithDescriptionPop"
+            android:label="@string/title_activity_upload_wardrobe_with_description_pop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.styleeditor.ColourPickerActivity"
+            android:label="@string/title_activity_colour_picker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.lookbook.UploadLookBook"
+            android:label="@string/title_activity_upload_look_book"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.wishlist.UploadWishListDescriptionActivity"
+            android:label="@string/title_activity_upload_wish_list_description"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MEDIA_MOUNTED" /> -->
+            <!-- <data android:scheme="file" /> -->
+
+
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.stylist.planner.AddLook"
+            android:label="@string/title_activity_colour_picker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stylist.lookbook.UploadFromLookbook"
+            android:label="@string/title_activity_colour_picker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stylist.planner.PlannerDetailList"
+            android:label="@string/title_activity_colour_picker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.planner.PlannerDetailItem"
+            android:label="@string/title_activity_colour_picker"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity android:name="com.stylist.NotificationHandelar" >
+        </activity>
+        <activity
+            android:name="com.stylist.SyncDataActivity"
+            android:label="@string/title_activity_sync_data"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.ReferAppActivity"
+            android:label="@string/title_activity_refer_app"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.BuyTokenActivity"
+            android:label="@string/title_activity_buy_token"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.Transaction"
+            android:label="@string/title_activity_buy_token"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.ShareActivity"
+            android:label="@string/title_activity_share"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.AboutUs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.TrendingDetailActivity"
+            android:label="@string/title_activity_trending_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.PayUMoneyActivity"
+            android:label="@string/title_activity_pay_umoney"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.stylist.PaymentSuccessActivity"
+            android:label="@string/title_activity_payment_success"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.lookbook.LooksByStylistActivity"
+            android:label="@string/title_activity_looks_by_stylist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.LooksbyStylistDetailActivity"
+            android:label="@string/title_activity_looksby_stylist_detail"
+            android:theme="@style/AppTheme1" >
+        </activity>
+        <activity
+            android:name="com.stylist.ServiceDialogActivity"
+            android:label="@string/title_activity_service_dialog" >
+        </activity>
+
+        <!-- RSS Activities -->
+        <activity
+            android:name="com.stylist.rssfeed.WeatherActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.stylist.rssfeed.AndroidRSSReaderApplicationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!-- Add New Site Activity -->
+        <activity
+            android:name="com.stylist.rssfeed.AddNewSiteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <!-- List rss items Activity -->
+        <activity
+            android:name="com.stylist.rssfeed.ListRSSItemsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <!-- Display webpage Activity -->
+        <activity
+            android:name="com.stylist.rssfeed.DisPlayWebPageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+
+        <receiver android:name="com.stylist.MyBroadcastReceiver" >
+        </receiver>
+
+        <service
+            android:name="com.stylist.BackServiceForCloset"
+            android:exported="false"
+            android:stopWithTask="true" />
+        <!--
+             <service
+            android:name=".CategoryService"
+            android:exported="false" />
+        -->
+
+        <receiver
+            android:name="com.stylist.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.stylist" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <receiver android:name=".GcmBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.gcm.DISPLAY_MY_MESSAGE" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <service android:name="com.stylist.GCMNotificationIntentService" />
+
+        <activity
+            android:name="com.stylist.SplashMostFirst"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.stylist.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

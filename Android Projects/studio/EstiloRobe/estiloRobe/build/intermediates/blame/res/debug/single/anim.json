@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_leave_out_to_left.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/animation_leave_out_to_left.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_leave_to_right.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_leave_to_right.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\top_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\top_out.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\bottom_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_up.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\exit_animation_leave_to_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\exit_animation_leave_to_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\bottom_out.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_enter_from_right.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\animation_leave_out_to_left.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\animation_leave_out_to_left.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_enter_from_right.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_leave_out_to_left.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/animation_leave_out_to_left.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\exit_animation_leave_to_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\exit_animation_leave_to_right.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_leave_to_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_leave_to_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_in.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/top_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\bottom_out.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_out_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_leave_to_right.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_leave_to_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/top_in.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_out.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/top_out.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\exit_animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\exit_animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_in.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/top_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\animation_leave_out_to_left.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\animation_leave_out_to_left.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\top_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\top_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\top_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\top_in.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_out_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\top_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\top_out.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_enter_from_right.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_up.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_in.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\bottom_in.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_down.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_enter_from_right.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/exit_animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/exit_animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\exit_animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\exit_animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/animation_leave_out_to_left.xml",
+        "source": "/home/adament/EstiloRobe/estiloRobe/src/main/res/anim/animation_leave_out_to_left.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\animation_enter_from_right.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\anim\\animation_enter_from_right.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/slide_out_up.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_out.xml",
+        "source": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/anim/top_out.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/anim/top_out.xml",
+        "source": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/anim/top_out.xml"
+    }
+]

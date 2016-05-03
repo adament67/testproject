@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout
+    android:id="@+id/newCategoryRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackColor"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border_white_dotted_line" >
+
+        <RelativeLayout
+            android:id="@+id/newCategoryTopLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="@dimen/uploadPadding" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		                     font:customFonttv="lvnm.ttf"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="Category Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textNormal" />
+
+        <com.constants.CustomEditText
+            android:id="@+id/category_editTextn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/textView1"
+		                     font:customFontet="lvnm.ttf"
+            android:background="@drawable/white_border"
+            android:ems="10"
+            android:inputType="textCapWords"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/whiteColor"
+            android:textCursorDrawable="@null" >
+
+        </com.constants.CustomEditText> 
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/createButn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/uploadPadding"
+        android:layout_weight="1"
+        android:background="@color/whiteColor"
+        android:text="Create"
+        android:textStyle="italic"
+        android:textColor="@color/splashColorRedish"
+        android:textSize="@dimen/textNormal" />
+
+    <Button
+        android:id="@+id/cancelButn"
+        android:layout_width="0dp"
+         android:background="@color/whiteColor"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/textNormal" 
+         android:textStyle="italic"
+             android:textColor="@color/splashColorRedish"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Cancel"  />
+
+   </LinearLayout>
+ </RelativeLayout>
+  </RelativeLayout>
+</LinearLayout>

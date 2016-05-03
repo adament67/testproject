@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/whiteColor"
+            android:background="@color/headerRed"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="Name"/>
+
+            <EditText
+                android:id="@+id/lookbookNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:cursorVisible="false"
+                android:background="@null"
+                android:layout_weight=".7"
+                android:inputType="textPersonName"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="5dp"
+            android:background="#e0e0e0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="Occasion"/>
+
+            <EditText
+                android:id="@+id/ocassionText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:background="@null"
+                android:ems="12"
+                android:inputType="textPersonName"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="5dp"
+            android:background="#e0e0e0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="Comments"/>
+
+            <EditText
+                android:id="@+id/commentsText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:ems="12"
+                android:background="@null"
+                android:inputType="textPersonName"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/saveButn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#f5f5f5"
+                android:background="@color/headerRed"
+                android:text="Ok"/>
+
+            <Button
+                android:id="@+id/cancelButnc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/headerRed"
+                android:layout_weight="1"
+                android:textColor="#f5f5f5"
+                android:text="Cancel"/>
+
+           <!-- <com.constants.CustomTextView
+                android:id="@+id/saveButn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/redish_text_color"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginRight="2dp"
+                android:text="Ok"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/cancelButnc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/redish_text_color"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Cancel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whiteColor"
+                font:customFonttv="lvnm.ttf" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

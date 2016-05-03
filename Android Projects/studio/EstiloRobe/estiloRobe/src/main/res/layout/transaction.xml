@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:id="@+id/relativeLayoutParentc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyClosetActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor"
+        android:orientation="vertical" >
+
+        <include layout="@layout/header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+               
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/ten_dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available Token"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/forty_dp"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:paddingRight="15dp"
+                    android:gravity="right"
+                    android:paddingBottom="15dp"
+                    android:text="5 token" />
+
+                         <TextView
+                             android:id="@+id/textView3"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentBottom="true"
+                             android:layout_below="@+id/textView1"
+                             android:layout_centerVertical="true"
+                             android:gravity="center_vertical"
+                             android:text="As on Jan 21, 2016" />
+
+            </RelativeLayout>
+          <View 
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/graydivider"/>
+          <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+              
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/ten_dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Token Purchase"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/forty_dp"
+                    android:paddingRight="15dp"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:gravity="right"
+                    android:paddingBottom="15dp"
+                    android:text="2 token" />
+
+                         <TextView
+                             android:id="@+id/textView3"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentBottom="true"
+                             android:layout_alignParentLeft="true"
+                             android:layout_below="@+id/textView1"
+                             android:layout_centerVertical="true"
+                             android:drawableLeft="@drawable/token_icon"
+                             android:gravity="center_vertical"
+                             android:text="   As on Jan 21, 2016" />
+
+            </RelativeLayout>
+             <View 
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/graydivider"/>
+          <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/ten_dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ask a stylist Request"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/forty_dp"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:paddingRight="15dp"
+                    android:gravity="right"
+                    android:paddingBottom="15dp"
+                    android:text="2 token" />
+
+                         <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/ask_stylist_icon"
+                   android:layout_below="@+id/textView1"
+                    android:text="   As on Jan 22, 2016" />
+            </RelativeLayout>
+            <View 
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/graydivider"/>
+          <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+             
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/ten_dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Referral Earning"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/forty_dp"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:gravity="right"
+                    android:paddingBottom="15dp"
+                    android:paddingRight="15dp"
+                    android:text="1 token" />
+
+                         <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/referral"
+                   android:layout_below="@+id/textView1"
+                    android:text="   As on Jan 22, 2016" />
+            </RelativeLayout>
+<View 
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/graydivider"/>
+          
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1460 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:2:1-752:12
+	package
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:4:5-26
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:multidex:1.0.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [EstiloRobe:_1800flowers_lib_menudrawer:unspecified] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/EstiloRobe/_1800flowers_lib_menudrawer/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [EstiloRobe:facebook:unspecified] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/EstiloRobe/facebook/unspecified/AndroidManifest.xml:24:5-44
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [EstiloRobe:bWlib_circle_indicator:unspecified] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/EstiloRobe/bWlib_circle_indicator/unspecified/AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+		INJECTED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:13:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:18:22-62
+permission#com.stylist.permission.C2D_MESSAGE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:27:5-29:47
+	android:protectionLevel
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:28:9-58
+uses-permission#com.stylist.permission.C2D_MESSAGE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:31:5-74
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:31:22-71
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:32:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:32:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:33:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:33:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:34:5-71
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:34:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:35:22-63
+application
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:37:5-750:19
+MERGED from [EstiloRobe:facebook:unspecified] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/EstiloRobe/facebook/unspecified/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:43:9-45
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:42:9-41
+	android:allowBackup
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:39:9-35
+	android:icon
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:41:9-42
+	android:largeHeap
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:40:9-33
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:45:9-68
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:38:9-41
+activity#com.stylist.SplashFirstActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:55:9-61:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:57:13-45
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:58:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:56:13-48
+activity#com.stylist.askstylist.AskStylistActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:62:9-68:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:64:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:65:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:63:13-58
+activity#com.stylist.askstylist.AskStylistRequestListActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:69:9-75:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:71:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:72:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:73:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:70:13-69
+activity#com.stylist.askstylist.StylistResponseActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:76:9-82:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:79:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:80:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:77:13-63
+activity#com.stylist.askstylist.SyncAlertActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:84:9-87:56
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:85:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:87:14-53
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:86:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:84:19-63
+activity#com.stylist.askstylist.StylistResponseDetailActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:89:9-95:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:91:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:94:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:90:13-69
+activity#com.stylist.Zoom_Crop_DialogActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:96:9-102:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:98:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:101:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:99:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:97:13-53
+activity#com.facebook.FacebookActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:103:9-109:55
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:106:13-45
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:109:13-52
+	android:configChanges
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:105:13-96
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:108:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:104:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:111:9-113:49
+	android:value
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:113:13-46
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:112:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:115:9-118:39
+	android:authorities
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:117:13-91
+	android:exported
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:118:13-36
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:116:13-64
+activity#com.stylist.HomeActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:120:9-128:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:123:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:122:13-56
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:127:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:124:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:121:13-41
+activity#com.stylist.styleeditor.BrowseFromWarMain
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:129:9-136:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:131:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:135:13-54
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:133:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:130:13-58
+activity#com.stylist.wardrobe.MyClosetActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:137:9-144:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:140:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:139:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:143:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:141:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:138:13-54
+activity#com.stylist.styleeditor.StyleEditorActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:145:9-152:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:148:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:147:13-64
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:151:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:149:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:146:13-60
+activity#com.stylist.lookbook.LookBookActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:153:9-161:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:155:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:160:13-64
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:157:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:154:13-54
+activity#com.stylist.TrendingActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:162:9-169:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:164:13-60
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:168:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:166:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:163:13-45
+activity#com.stylist.planner.PlannerActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:170:9-177:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:173:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:172:13-59
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:176:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:174:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:171:13-52
+activity#com.stylist.wishlist.WishListActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:178:9-185:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:181:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:180:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:184:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:182:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:179:13-54
+activity#com.stylist.ProfileActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:186:9-193:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:188:13-59
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:192:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:190:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:187:13-44
+activity#com.stylist.StylistActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:194:9-201:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:197:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:196:13-59
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:200:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:198:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:195:13-44
+activity#com.stylist.SettingsActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:202:9-209:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:205:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:204:13-60
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:208:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:206:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:203:13-45
+activity#com.stylist.UploadActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:210:9-217:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:213:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:212:13-58
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:216:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:214:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:211:13-43
+activity#com.stylist.LoginActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:218:9-225:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:220:13-57
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:224:13-64
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:221:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:219:13-42
+activity#com.stylist.SignupActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:226:9-233:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:231:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:228:13-58
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:232:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:229:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:227:13-43
+activity#com.stylist.CameraActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:234:9-241:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:239:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:236:13-58
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:240:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:237:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:235:13-43
+activity#com.stylist.CroppingActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:242:9-249:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:247:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:244:13-60
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:248:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:245:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:243:13-45
+activity#com.stylist.CropActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:250:9-257:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:255:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:252:13-56
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:256:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:253:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:251:13-41
+activity#com.stylist.askstylist.NewQueryActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:258:9-265:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:261:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:260:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:264:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:262:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:259:13-56
+activity#com.stylist.askstylist.MyRequestActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:266:9-273:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:271:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:268:13-62
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:272:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:269:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:267:13-57
+activity#com.stylist.FbLoginActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:274:9-281:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:279:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:276:13-60
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:280:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:277:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:275:13-44
+activity#com.stylist.UserDetailsActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:282:9-289:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:287:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:284:13-64
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:288:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:285:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:283:13-48
+activity#com.stylist.ImportFromFacebookActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:290:9-297:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:295:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:292:13-72
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:296:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:293:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:291:13-55
+activity#com.stylist.SplashScreenActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:298:9-306:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:304:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:300:13-45
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:305:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:302:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:299:13-49
+activity#com.stylist.wardrobe.CategoryDetailActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:307:9-315:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:310:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:309:13-67
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:314:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:311:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:308:13-60
+activity#com.stylist.wardrobe.ItemDetailActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:316:9-324:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:319:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:318:13-63
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:323:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:320:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:317:13-56
+activity#com.stylist.Selector
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:325:9-331:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:327:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:330:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:328:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:326:13-37
+activity#com.stylist.SelectorStyleEditor
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:332:9-337:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:334:13-49
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:336:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:335:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:333:13-48
+activity#com.stylist.wardrobe.BrowseFromWardrobe
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:338:9-346:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:341:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:340:13-63
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:345:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:342:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:339:13-56
+activity#com.stylist.styleeditor.SelectWardrobeCategoryDetail
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:347:9-354:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:350:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:349:13-63
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:353:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:351:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:348:13-69
+activity#com.stylist.wishlist.UploadWishListActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:355:9-364:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:358:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:357:13-73
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:361:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:359:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:356:13-60
+activity#com.stylist.wishlist.WishListItemActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:365:9-372:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:368:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:367:13-66
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:371:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:369:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:366:13-58
+activity#com.stylist.styleeditor.BrowseFromWishListActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:373:9-380:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:376:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:375:13-73
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:379:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:377:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:374:13-67
+activity#com.stylist.MainActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:381:9-388:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:384:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:383:13-56
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:387:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:385:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:382:13-41
+activity#com.stylist.wardrobe.UploadWardribeActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:389:9-402:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:392:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:391:13-67
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:395:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:393:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:390:13-60
+activity#com.stylist.wardrobe.UploadOptionWardrobeActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:403:9-415:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:406:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:405:13-74
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:408:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:407:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:404:13-66
+activity#com.stylist.wardrobe.EditMyClosetActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:416:9-423:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:419:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:418:13-66
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:422:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:420:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:417:13-58
+activity#com.stylist.wardrobe.wardrobe.EditCategory
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:424:9-431:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:427:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:426:13-65
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:430:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:428:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:425:13-59
+activity#com.stylist.wishlist.UploadOptionWishListActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:432:9-444:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:435:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:434:13-75
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:437:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:436:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:433:13-66
+activity#com.stylist.lookbook.LookBookItemActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:445:9-452:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:448:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:447:13-66
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:451:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:449:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:446:13-58
+activity#com.stylist.wishlist.WishListItemDetail
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:453:9-460:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:456:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:455:13-73
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:459:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:457:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:454:13-56
+activity#com.stylist.wardrobe.NewCategoryActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:461:9-468:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:464:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:463:13-64
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:467:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:465:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:462:13-57
+activity#com.stylist.CropConfirmActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:469:9-476:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:472:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:471:13-64
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:475:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:473:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:470:13-48
+activity#com.stylist.ForgotPasswordActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:477:9-484:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:482:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:479:13-67
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:483:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:480:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:478:13-51
+activity#com.stylist.styleeditor.SelectWishListItemActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:485:9-492:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:490:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:487:13-73
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:491:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:488:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:486:13-67
+activity#com.stylist.UploadLookActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:493:9-500:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:496:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:495:13-63
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:499:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:497:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:494:13-47
+activity#com.stylist.wardrobe.AllClosetItemActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:501:9-507:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:506:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:503:13-67
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:504:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:502:13-59
+activity#com.stylist.wardrobe.UploadWardrobeWithDescriptionPop
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:510:9-519:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:513:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:512:13-88
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:518:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:516:13-56
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:511:13-70
+activity#com.stylist.styleeditor.ColourPickerActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:520:9-526:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:525:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:522:13-65
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:523:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:521:13-61
+activity#com.stylist.lookbook.UploadLookBook
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:527:9-533:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:530:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:529:13-68
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:532:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:531:13-56
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:528:13-52
+activity#com.stylist.wishlist.UploadWishListDescriptionActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:534:9-546:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:537:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:536:13-80
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:539:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:538:13-56
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:535:13-71
+activity#com.stylist.planner.AddLook
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:547:9-554:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:550:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:549:13-65
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:553:13-64
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:551:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:548:13-44
+activity#com.stylist.lookbook.UploadFromLookbook
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:555:9-562:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:558:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:557:13-65
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:561:13-64
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:559:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:556:13-56
+activity#com.stylist.planner.PlannerDetailList
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:563:9-569:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:568:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:565:13-65
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:566:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:564:13-54
+activity#com.stylist.planner.PlannerDetailItem
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:570:9-576:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:575:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:572:13-65
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:573:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:571:13-54
+activity#com.stylist.NotificationHandelar
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:577:9-578:20
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:577:19-55
+activity#com.stylist.SyncDataActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:579:9-586:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:584:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:581:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:585:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:582:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:580:13-45
+activity#com.stylist.ReferAppActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:587:9-594:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:592:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:589:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:593:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:590:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:588:13-45
+activity#com.stylist.BuyTokenActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:595:9-602:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:598:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:597:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:601:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:599:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:596:13-45
+activity#com.stylist.Transaction
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:603:9-610:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:608:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:605:13-61
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:609:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:606:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:604:13-40
+activity#com.stylist.ShareActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:611:9-617:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:614:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:613:13-57
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:616:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:615:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:612:13-42
+activity#com.stylist.AboutUs
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:618:9-623:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:622:13-49
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:620:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:619:13-36
+activity#com.stylist.TrendingDetailActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:624:9-630:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:629:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:626:13-67
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:627:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:625:13-51
+activity#com.stylist.PayUMoneyActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:631:9-638:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:634:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:633:13-62
+	android:windowSoftInputMode
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:637:13-52
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:635:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:632:13-46
+activity#com.stylist.PaymentSuccessActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:639:9-645:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:644:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:641:13-67
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:642:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:640:13-51
+activity#com.stylist.lookbook.LooksByStylistActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:646:9-652:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:651:13-49
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:648:13-68
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:649:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:647:13-60
+activity#com.stylist.LooksbyStylistDetailActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:653:9-658:20
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:657:13-74
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:655:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:654:13-57
+activity#com.stylist.ServiceDialogActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:659:9-662:20
+	android:label
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:661:13-66
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:660:13-50
+activity#com.stylist.rssfeed.WeatherActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:665:9-669:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:667:13-49
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:668:13-71
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:666:13-52
+activity#com.stylist.rssfeed.AndroidRSSReaderApplicationActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:670:9-673:74
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:672:13-49
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:673:13-71
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:671:13-72
+activity#com.stylist.rssfeed.AddNewSiteActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:676:9-680:15
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:678:13-49
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:679:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:677:13-55
+activity#com.stylist.rssfeed.ListRSSItemsActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:683:9-688:15
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:686:13-49
+	android:configChanges
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:685:13-63
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:687:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:684:13-57
+activity#com.stylist.rssfeed.DisPlayWebPageActivity
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:692:9-696:56
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:695:13-49
+	android:configChanges
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:694:13-63
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:696:13-53
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:693:13-59
+receiver#com.stylist.MyBroadcastReceiver
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:698:9-699:20
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:698:19-54
+service#com.stylist.BackServiceForCloset
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:701:8-704:42
+	android:exported
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:703:13-37
+	android:stopWithTask
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:704:13-40
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:702:13-49
+receiver#com.stylist.GcmBroadcastReceiver
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:709:9-721:20
+	android:permission
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:711:13-73
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:710:13-49
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.stylist
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:712:13-720:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:715:17-81
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:715:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:717:17-86
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:717:25-83
+category#com.stylist
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:719:17-56
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:719:27-53
+service#com.stylist.GCMNotificationIntentService
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:730:9-65
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:730:18-62
+activity#com.stylist.SplashMostFirst
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:734:9-744:20
+	android:screenOrientation
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:736:13-49
+	android:theme
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:737:13-45
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:735:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:739:13-743:29
+action#android.intent.action.MAIN
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:740:17-69
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:740:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:742:17-77
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:742:27-74
+meta-data#com.google.android.gms.version
+ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:747:9-749:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:749:13-66
+	android:name
+		ADDED from /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/AndroidManifest.xml:748:13-58
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:29:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:42:11-82

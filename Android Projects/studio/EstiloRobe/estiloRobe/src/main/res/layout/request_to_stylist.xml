@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_light_colour" >
+
+        <LinearLayout
+            android:id="@+id/topLinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:background="@color/whiteColor"
+            android:orientation="vertical"
+            android:padding="@dimen/ten_dp" >
+
+            <com.constants.CustomTextView
+                android:id="@+id/occasion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/uploadPadding"
+                android:text="Sister&apos;s Marriage"
+                android:textColor="@color/headerRed"
+                android:textStyle="bold"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/uploadPadding"
+                android:text="30 October,2015"
+                android:textColor="@color/blackColor"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/uploadPadding"
+                android:paddingLeft="@dimen/uploadPadding"
+                android:text="I Want to wear saree in my Sister&apos;s wedding."
+                android:textColor="@color/blackColor"
+                font:customFonttv="lvnm.ttf" />
+
+            <com.constants.CustomTextView
+                android:id="@+id/response_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Pending"
+                android:textColor="@color/headerRed"
+                font:customFonttv="lvnm.ttf" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/saveRelLayout"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:paddingTop="@dimen/uploadPadding" >
+
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/ten_dp"
+                android:scaleType="centerInside" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/splashColorRedish"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin" >
+
+        <com.constants.CustomTextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="0.6"
+            android:text="TextView"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/textHeading"
+            font:customFonttv="lvnm.ttf" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.2"
+            android:scaleType="fitEnd"
+            android:src="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.2"
+            android:scaleType="fitEnd"
+            android:src="@drawable/cross" />
+    </LinearLayout>
+
+</LinearLayout>

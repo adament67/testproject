@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:font="http://schemas.android.com/apk/res/com.stylist"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/forwardImage"
+        android:orientation="vertical" >
+    
+     <com.constants.CustomTextView
+         android:id="@+id/ocassion"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="10dp"
+         android:padding="5dp"
+         android:text="Hello"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         font:customFonttv="lvnmbd.ttf" />
+    
+      <com.constants.CustomTextView
+          android:id="@+id/finalDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="10dp"
+          android:text="Hello"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          font:customFonttv="lvnm.ttf" />
+      <!-- <com.constants.CustomTextView
+          android:id="@+id/finalTime"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="10dp"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          font:customFonttv="lvnm.ttf" /> -->
+       <com.constants.CustomTextView
+           android:id="@+id/createdDate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="10dp"
+           android:text="Hello"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           font:customFonttv="lvnm.ttf" />
+</LinearLayout>
+<!-- <ImageView
+    android:id="@+id/deleteImage"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_alignParentRight="true"
+    android:padding="5dp"
+    android:src="@drawable/delete_icon" /> -->
+    
+<ImageView
+    android:id="@+id/forwardImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:padding="5dp"
+    android:src="@drawable/forword_btn" />
+
+</RelativeLayout>

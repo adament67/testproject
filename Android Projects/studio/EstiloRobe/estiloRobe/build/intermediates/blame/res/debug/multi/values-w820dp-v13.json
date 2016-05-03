@@ -1,0 +1,122 @@
+[
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/estiloRobe/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/adament/EstiloRobe/estiloRobe/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/adament/Android Projects/studio/EstiloRobe/estiloRobe/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\home\\adament\\Music\\EstiloRobe\\estiloRobe\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/adament/Projects/EstiloRobe_08_04_16/EstiloRobe/D:\\Estilorobe\\estilorobe_april_zip\\EstiloRobe_08_04_16\\EstiloRobe\\estiloRobe\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    }
+]
