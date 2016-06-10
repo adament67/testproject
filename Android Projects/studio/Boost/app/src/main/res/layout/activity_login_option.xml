@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@raw/splash" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create An Account"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bg_button_normal"
+            android:id="@+id/button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bg_button_facebook"
+                android:id="@+id/login_facebook" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bg_button_google"
+                android:id="@+id/login_google" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/color_text_grey"
+            android:text="Or login to an existing account"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
